@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+For full explanation, please refer to docs folder. and open index.html. and then click on one of two contracts:
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+`myOracle.sol`
+`PriceChecker.sol`
 
-Try running some of the following tasks:
+```
+contracts -> 
+# myOracle.sol --> Task 1
+# PriceChecker --> Task 2
+# NULL for task 3 (because I have found the FVM(as was saying in that youtube clip) will have better solutions  for inteacting with high load of transactions)
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
 ```
