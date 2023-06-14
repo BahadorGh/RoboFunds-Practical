@@ -1,0 +1,17 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "docgen": "npm run hardhat docgen --no-compile",
+    "deployPriceCheckerOnFork": "npx hardhat run scripts/deployPriceChecker.js --network hardhat",
+    "deployMyOracleOnFork": "npx hardhat run scripts/deployPriceChecker.js --network hardhat"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.15.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "dotenv": "^16.1.4",
+    "hardhat-docgen": "^1.3.0"
+  }
+}
